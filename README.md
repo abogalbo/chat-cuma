@@ -6,8 +6,9 @@ import tkinter as tk
 from tkinter import scrolledtext, messagebox
 
 # Configura tu clave de API de OpenAI aquí
-api_key = "sk-cumaia"  # Reemplaza con tu clave real
-client = OpenAI(api_key=api_key)
+client = OpenAI(
+  api_key="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"
+)
 
 # Inicializa el reconocedor
 mic = sr.Recognizer()
